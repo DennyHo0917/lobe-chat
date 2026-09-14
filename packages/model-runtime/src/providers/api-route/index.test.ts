@@ -15,7 +15,7 @@ testProvider({
 });
 
 describe('LobeApiRouteAI', () => {
-  it('uses the API-Route OpenAI-compatible endpoint', () => {
+  it('uses the API Route OpenAI-compatible endpoint', () => {
     expect(params).toMatchObject({
       baseURL: 'https://global.api-route.com/v1',
       provider: ModelProvider.ApiRoute,
